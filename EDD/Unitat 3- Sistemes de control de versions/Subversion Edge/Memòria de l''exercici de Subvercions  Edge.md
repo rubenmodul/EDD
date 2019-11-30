@@ -1,11 +1,14 @@
 # -Subversion Egde
 
+
+-Aqui os dejare un link donde os explica como instalar el docker por si no teneis  instalado: [Docker](https://www.digitalocean.com/community/tutorials/como-instalar-y-usar-docker-en-ubuntu-18-04-1-es)
+
 ### 1- El primer pas sera instalar el "subversion" al client:
 ```ssh 
 1 $ sudo apt-get install subversion
 ```
 
-2- Ara llamarem un check out amb el cual posarem el nostre nom de usuari
+2- Ara farem un check out amb el cual posarem el nostre nom de usuari
 ```sh
 1 $ svn co http://localhost:18080/svn/Projecte1 --username=rubenberto
 2 Authentication realm: <http://localhost:18080> CollabNet Subversion
